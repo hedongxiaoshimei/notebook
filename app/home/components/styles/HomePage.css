@@ -1,0 +1,13 @@
+html {
+    font-size: 62.5%;/* 10px÷16px=62.5% */
+      font-family: gotham, helvetica, arial, sans-serif;
+}
+body{
+  margin: 0;
+  padding: 0;
+}
+
+html,body,#app,.home_wrap {
+  height: 100%;
+  width: 100%;
+}

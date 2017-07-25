@@ -1,0 +1,137 @@
+.aside_wrap {
+  width: 7.3rem;
+  height: 100%;
+  transition: width 0.2s ease-in-out, left 0.2s ease-in-out 0.3s;
+
+  border-right: 1px solid #ececec;
+  background-color: #f8f8f8;
+  height: 100%;
+  float: left;
+  padding: 12px 12px 24px 17px;
+  transition: width 0.2s ease-in-out, left 0.2s ease-in-out;
+  z-index: 200;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+.aside_logo {
+  background: url('../../../static/images/logo.png') no-repeat;
+  background-size: 100%;
+  height: 6.6rem;
+  width: 3.6rem;
+}
+
+
+.aside_add{
+  background: url('../../../static/images/add.png') no-repeat;
+  background-size: 100%;
+  height: 5rem;
+  width: 3.6rem;
+  cursor: pointer;
+}
+.aside_add:hover {
+  background: url('../../../static/images/add_.png') no-repeat;
+  background-size: 100%;
+  height: 5rem;
+  width: 3.6rem;
+  cursor: pointer;
+}
+
+
+
+.aside_search{
+  background: url('../../../static/images/search.png') no-repeat;
+  background-size: 100%;
+  height: 5rem;
+  width: 3.6rem;
+  cursor: pointer;
+}
+
+.aside_search:hover{
+  background: url('../../../static/images/search_.png') no-repeat;
+  background-size: 100%;
+  height: 5rem;
+  width: 3.6rem;
+  cursor: pointer;
+}
+
+.aside_teamchat{
+  background: url('../../../static/images/teamchat.png') no-repeat;
+  background-size: 100%;
+  height: 5rem;
+  width: 3.6rem;
+  cursor: pointer;
+}
+
+.aside_teamchat:hover{
+  background: url('../../../static/images/teamchat_.png') no-repeat;
+  background-size: 100%;
+  height: 5rem;
+  width: 3.6rem;
+  cursor: pointer;
+}
+
+.aside_collect{
+  background: url('../../../static/images/collect.png') no-repeat;
+  background-size: 100%;
+  height: 5rem;
+  width: 3.6rem;
+  cursor: pointer;
+  margin-top: 4rem;
+}
+
+.aside_collect:hover{
+  background: url('../../../static/images/collect_.png') no-repeat;
+  background-size: 100%;
+  height: 5rem;
+  width: 3.6rem;
+  cursor: pointer;
+  margin-top: 4rem;
+}
+
+.aside_note{
+  background: url('../../../static/images/note.png') no-repeat;
+  background-size: 100%;
+  height: 5rem;
+  width: 3.6rem;
+  cursor: pointer;
+}
+.aside_note:hover{
+  background: url('../../../static/images/note_.png') no-repeat;
+  background-size: 100%;
+  height: 5rem;
+  width: 3.6rem;
+  cursor: pointer;
+}
+
+.aside_noteboock{
+  background: url('../../../static/images/notebook.png') no-repeat;
+  background-size: 100%;
+  height: 5rem;
+  width: 3.6rem;
+  cursor: pointer;
+}
+
+.aside_noteboock:hover{
+  background: url('../../../static/images/notebook_.png') no-repeat;
+  background-size: 100%;
+  height: 5rem;
+  width: 3.6rem;
+  cursor: pointer;
+}
+
+.aside_label{
+  background: url('../../../static/images/label.png') no-repeat;
+  background-size: 100%;
+  height: 5rem;
+  width: 3.6rem;
+  cursor: pointer;
+}
+
+.aside_label:hover{
+  background: url('../../../static/images/label_.png') no-repeat;
+  background-size: 100%;
+  height: 5rem;
+  width: 3.6rem;
+  cursor: pointer;
+}

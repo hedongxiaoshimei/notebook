@@ -2,8 +2,11 @@ import React, {Component, PropTypes} from 'react';
 import { connect } from 'react-redux';
 import { bindActionCreators } from 'redux';
 import * as Actions from '../actions';  //引入需要的action *代表引入actions文件夹中的index.js 即被合并的所有action
-
 import '../components/styles/HomePage.css';
+
+
+import Aside from '../components/Aside';
+import NoteMain from '../components/NoteMain';
 
 
 
@@ -19,12 +22,10 @@ class HomePage extends Component{
 
   render() {
     const { homeState,actions } = this.props;
-    const downVisible = homeState.homeDownloadVisible;
-    const platformRecommend = homeState.homeDate.platformRecommend;
-    const debtRecommend = homeState.homeDate.debtRecommend;
     return (
       <div className="home_wrap">
-        <h1>noteBook</h1>
+        <Aside/>
+        <NoteMain/>
       </div>
     );
   }
