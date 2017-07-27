@@ -21,3 +21,24 @@ export const closeHomeDownload = () =>{
     type: 'CLOSE_HOME_DOWNLOAD',
   }
 }
+
+export const addNote = (notes) =>{
+  return {
+    type: 'ADD_NOTE',
+    notes: notes,
+  }
+}
+
+export const currNoteId = (nid) =>{
+  return {
+    type: 'CURR_NOTE_ID',
+    nid: nid,
+  }
+}
+
+export const deleteNote = (notes) =>{
+  return {
+    type: 'DELETE_NOTE',
+    notes: notes,
+  }
+}

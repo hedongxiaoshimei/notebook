@@ -13,19 +13,22 @@ import NoteMain from '../components/NoteMain';
 
 class HomePage extends Component{
   componentDidMount() {
-    const { actions } = this.props;
+    const { homePageReducer,actions } = this.props;
+    const notes = homePageReducer.notes || [];
+    if (notes) {
+      actions.currNoteId(notes[0].id);
+    }
   }
 
 
 
 
-
   render() {
-    const { homeState,actions } = this.props;
+    const { homePageReducer,actions } = this.props;
     return (
       <div className="home_wrap">
-        <Aside/>
-        <NoteMain/>
+        <Aside homePageReducer={homePageReducer} actions={actions} />
+        <NoteMain homePageReducer={homePageReducer} actions={actions}/>
       </div>
     );
   }
@@ -33,7 +36,7 @@ class HomePage extends Component{
 
 const mapStateToProps = (state) => {
   return {
-    homeState: state.HomePageReducer,
+    homePageReducer: state.HomePageReducer,
   };
 };
 
